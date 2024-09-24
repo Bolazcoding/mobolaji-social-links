@@ -17,18 +17,19 @@ body {
   background-color: hsl(0, 0%, 8%);
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 100vh;
 }
 
 .container {
-  max-width: 144rem;
+  max-width: 320rem;
   margin: 0 auto;
   text-align: center;
 }
 
 .section-body {
   background-color: hsl(0, 0%, 12%);
-  padding: 2.5rem;
+  padding: 3rem;
   border-radius: 1rem;
 }
 
@@ -95,6 +96,11 @@ body {
 @media (max-width: 28em) {
   html {
     font-size: 50%;
+  }
+}
+@media (max-width: 21em) {
+  html {
+    font-size: 45%;
   }
 }
 /* .attribution {
