@@ -38,8 +38,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/Bolazcoding/blog-preview-card)
-- Live Site URL: [Live site URL](https://bolazcoding.github.io/blog-preview-card/)
+- Solution URL: [Solution URL](https://github.com/Bolazcoding/social-links-profile)
+- Live Site URL: [Live site URL](https://bolazcoding.github.io/social-links-profile/)
 
 ## My process
 
