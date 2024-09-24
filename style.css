@@ -23,7 +23,7 @@ body {
   text-align: center;
 }
 
-section {
+main {
   background-color: hsl(0, 0%, 12%);
   padding: 3rem;
   border-radius: 1rem;
@@ -69,6 +69,10 @@ section {
   cursor: pointer;
 }
 
+.profile-socials li {
+  list-style: none;
+}
+
 .profile-socials a:link,
 .profile-socials a:visited {
   display: inline-block;
@@ -76,8 +80,8 @@ section {
   color: hsl(0, 0%, 100%);
   font-weight: 700;
   padding: 1.2rem 1.5rem;
-  cursor: pointer;
 }
+
 .profile-socials:hover,
 .profile-socials:focus {
   background-color: hsl(75, 94%, 57%);
