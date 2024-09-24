@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+address {
+  color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 12%);
+  color: hsl(0, 0%, 8%);
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-body {
+  background-color: hsl(0, 0%, 12%);
+  padding: 2.5rem;
+  border-radius: 1rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 8.6rem;
+  height: 8.6rem;
+  border-radius: 50%;
+  margin: 1.5rem 0;
+  object-fit: cover;
+}
+
+.profile-name {
+  margin-top: 1rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+.profile-location {
+  margin-top: 1rem;
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+
+.profile-about {
+  margin: 2.5rem 1.5rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  opacity: 75%;
+}
+
+.profile-socials {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 1.1rem;
+  margin: 1.5rem 0;
+  cursor: pointer;
+}
+
+.profile-socials a:link,
+.profile-socials a:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  padding: 1.2rem 1.5rem;
+  cursor: pointer;
+}
+.profile-socials:hover,
+.profile-socials:focus {
+  background-color: hsl(75, 94%, 57%);
+}
+
+.profile-socials:hover a,
+.profile-socials:focus a {
+  color: hsl(0, 0%, 8%);
+}
+
+/* 1em = 16px by 448px / 16 = 28em */
+@media (max-width: 28em) {
+  html {
+    font-size: 50%;
+  }
+}
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
