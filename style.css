@@ -67,6 +67,7 @@ main {
   border-radius: 1.1rem;
   margin: 1.5rem 0;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .profile-socials li {
